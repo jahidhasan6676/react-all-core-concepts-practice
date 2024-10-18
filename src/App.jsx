@@ -1,33 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+// import Products from './Products'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+    // const products = [
+    //   {Id:1, name: 'Laptop', price: 2200, color: 'Silver', brand: 'Hp'},
+    //   {Id:2, name: 'Mobile', price: 2000, color: 'Yellow', brand: 'Hp'},
+    //   {Id:3, name: 'Monitor', price: 2600, color: 'Purple', brand: 'Hp'},
+    //   {Id:4, name: 'Mouse', price: 200, color: 'Black', brand: 'Hp'}
+    // ]
+
+    // const products = [
+    //   {Id:1, name: 'Shirt', price: 2200, color: 'Silver', brand: 'Hp', isSell: true},
+    //   {Id:2, name: 'T-shirt', price: 2000, color: 'Yellow', brand: 'Hp', isSell: false},
+    //   {Id:3, name: 'Punjabi', price: 2600, color: 'Purple', brand: 'Hp', isSell: true},
+    //   {Id:4, name: 'Lungi', price: 200, color: 'Black', brand: 'Hp', isSell: false}
+    // ]
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h3>React All Core Concepts Practice</h3>
+
+      {/* <Products product={products}></Products> */}
+
+    {/* {
+      products.map(product => <Products product={product}></Products>)
+    } */}
+
+      
+      
     </>
   )
 }
