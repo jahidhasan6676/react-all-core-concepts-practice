@@ -4,3 +4,23 @@
     padding: 15px;
     border-radius: 10px;
 }
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+      
+}
+.body{
+    font-size: 14px;
+    font-weight: 400;
+}
+.other{
+    font-weight: 500;
+}
+
+.display{
+    display: none;
+}
+.block{
+    display: block;
+}

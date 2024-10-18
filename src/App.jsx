@@ -1,7 +1,10 @@
 
 import './App.css'
+// import CategoryBtn from './CategoryDetails'
 // import Products from './Products'
-
+import CategoryDetails from './CategoryDetails'
+import Posts from './Posts'
+import Counter from './Counter'
 function App() {
 
     // const products = [
@@ -20,7 +23,12 @@ function App() {
 
   return (
     <>
-      <h3>React All Core Concepts Practice</h3>
+
+   
+      {/* <h3>React All Core Concepts Practice</h3> */}
+      <Counter></Counter>
+      <CategoryDetails ></CategoryDetails>
+      <Posts></Posts>
 
       {/* <Products product={products}></Products> */}
 
