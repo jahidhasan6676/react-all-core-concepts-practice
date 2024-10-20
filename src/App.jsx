@@ -1,11 +1,19 @@
 
+import { useState } from 'react'
 import './App.css'
+// import ChildToParent from './ChildToParent'
+
 // import CategoryBtn from './CategoryDetails'
 // import Products from './Products'
-import CategoryDetails from './CategoryDetails'
-import Posts from './Posts'
-import Counter from './Counter'
+// import CategoryDetails from './CategoryDetails'
+// import Posts from './Posts'
+// import Counter from './Counter'
+import Objects from './Objects'
+import Arrays from './Arrays'
 function App() {
+
+  // const [state, setState] = useState(true)
+  // console.log(state)
 
     // const products = [
     //   {Id:1, name: 'Laptop', price: 2200, color: 'Silver', brand: 'Hp'},
@@ -21,14 +29,30 @@ function App() {
     //   {Id:4, name: 'Lungi', price: 200, color: 'Black', brand: 'Hp', isSell: false}
     // ]
 
+    // const send = (sum)=>{
+    //   setState(sum)
+    // }
+
+
+  // console.log(state)
+  //   const  transfer = (massage) => {
+
+  //     setState(massage)
+  //   }
+
   return (
     <>
 
    
-      {/* <h3>React All Core Concepts Practice</h3> */}
-      <Counter></Counter>
-      <CategoryDetails ></CategoryDetails>
-      <Posts></Posts>
+      <h3>React All Core Concepts Practice</h3>
+      <Objects></Objects>
+      <Arrays></Arrays>
+      {/* <ChildToParent value={send}></ChildToParent> */}
+
+      {/* <ChildToParent name={transfer}></ChildToParent> */}
+      {/* <Counter></Counter>  
+      <CategoryDetails ></CategoryDetails>                                                                                          
+      <Posts></Posts> */}
 
       {/* <Products product={products}></Products> */}
 
@@ -41,5 +65,5 @@ function App() {
     </>
   )
 }
-
+     
 export default App
